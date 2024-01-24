@@ -4,7 +4,8 @@
   grid-template-rows: 150px 4fr;
   gap: 10px;
 }
-:w .container div {
+
+.container div {
   border: 1px black solid;
 }
 
@@ -34,6 +35,12 @@
 
 #trending {
   grid-column-start: 2;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 #search {
