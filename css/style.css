@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 150px 4fr;
+  gap: 10px;
+}
+:w .container div {
+  border: 1px black solid;
+}
+
+.sidebar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: 1 / 3;
+  display: grid;
+  grid-template-rows: 60px 250px 1fr;
+}
+
+.main-content {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+#projects {
+  grid-row: 1 / 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+#announcements {
+  grid-column-start: 2;
+}
+
+#trending {
+  grid-column-start: 2;
+}
+
+#search {
+  border-radius: 12px;
+  background-color: #b2beb5;
+}
