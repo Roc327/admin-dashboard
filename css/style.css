@@ -26,14 +26,22 @@ ul li {
   grid-column-end: 2;
   grid-row: 1 / 3;
   display: grid;
-  grid-template-rows: 60px 350px 1fr;
+  grid-template-rows: 70px 350px 1fr;
   background-color: #0ea5e9;
 }
 
 #sidebar-brand {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+#sidebar-brand > svg {
+  width: 52px;
+  height: 52px;
+  margin-right: 15px;
 }
 
 #dashboard {
@@ -42,12 +50,30 @@ ul li {
   color: #ecfeff;
 }
 
+#sidebar-nav {
+  margin-top: auto;
+}
+
 #nav-list,
 #settings-support {
   font-size: 24px;
   font-weight: bold;
   color: #ecfeff;
+  margin-top: 35px;
   margin-bottom: 5px;
+}
+
+.li-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.li-nav > svg {
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+  fill: #ecfeff;
 }
 
 .main-content {
