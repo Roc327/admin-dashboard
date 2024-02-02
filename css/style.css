@@ -59,12 +59,18 @@ ul li {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 15px;
-  margin: 15px;
   background-color: #cbd5e1;
 }
 
-#projects {
+#projects-container {
   grid-row: 2 / 5;
+  display: grid;
+  grid-template-rows: 60px auto;
+  margin: 15px;
+}
+
+#projects {
+  /*grid-row: 2 / 5;*/
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 15px;
@@ -85,6 +91,11 @@ ul li {
 
 #announcements {
   grid-column-start: 2;
+  margin: 15px;
+}
+
+#announcements-title {
+  margin: 15px;
 }
 
 #announcements > ul {
@@ -93,6 +104,11 @@ ul li {
 
 #trending {
   grid-column-start: 2;
+  margin: 15px;
+}
+
+#trending-title {
+  margin: 15px;
 }
 
 #trending > ul {
