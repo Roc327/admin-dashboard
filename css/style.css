@@ -178,6 +178,40 @@ ul li {
   padding: 12px;
 }
 
+#user-info-small {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#user-info-small > svg {
+  height: 28px;
+  width: 28px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+#user-small-text {
+  margin-left: 25px;
+}
+
+#user-big-container {
+  margin-left: 15px;
+}
+
+#user-greeting {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+#user-big-text {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
 #buttons {
   display: flex;
   justify-content: space-evenly;
