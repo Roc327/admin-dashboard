@@ -145,11 +145,6 @@ ul li {
   font-weight: 500;
 }
 
-/*#announcements > ul {
-  border: 1px solid black;
-  margin: 0px;
-}*/
-
 #trending-container {
   grid-column-start: 2;
   display: grid;
@@ -171,6 +166,11 @@ ul li {
 #announcements > ul {
   margin: 0px;
   padding: 0px;
+}
+
+#announcements,
+#trending {
+  max-width: 400px;
 }
 
 .header {
