@@ -173,6 +173,11 @@ ul li {
   max-width: 400px;
 }
 
+#announcements > ul > li:not(:last-of-type) {
+  border-bottom: 1px solid grey;
+  padding-bottom: 15px;
+}
+
 .header {
   display: grid;
   grid-template-columns: 2fr 1fr;
