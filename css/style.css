@@ -246,8 +246,10 @@ ul li {
 
 #buttons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
+  gap: 25px;
+  margin-left: 18px;
 }
 
 .button {
